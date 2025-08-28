@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac3e50a7-6e8e-42a8-b92d-a8562006411d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MagnumBank.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/Api1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/controller/CargaInicialController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/controller/VeiculoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/dto/MarcaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/dto/VeiculoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/dto/VeiculoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/fipe/FipeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/model/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/queue/MarcaMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/queue/MarcaProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/repository/VeiculoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/service/CargaInicialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/service/VeiculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/java/com/magnumbank/api2/Api2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/java/com/magnumbank/api2/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/java/com/magnumbank/api2/consumer/MarcaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/java/com/magnumbank/api2/controller/VeiculoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/java/com/magnumbank/api2/dto/VeiculoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/java/com/magnumbank/api2/fipe/FipeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/java/com/magnumbank/api2/model/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/java/com/magnumbank/api2/queue/MarcaMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/java/com/magnumbank/api2/repository/VeiculoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/java/com/magnumbank/api2/service/VeiculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="31v2FKaPOZyOsiibCzhvWe6LKb5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Abril/Mvc"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac3e50a7-6e8e-42a8-b92d-a8562006411d" name="Changes" comment="" />
+      <created>1756390120812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756390120812</updated>
+    </task>
+    <servers />
+  </component>
+</project>
