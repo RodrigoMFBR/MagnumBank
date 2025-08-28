@@ -54,6 +54,7 @@ services:
     ports:
       - "8080:8080"
     environment:
+      SERVER_PORT: 8080     # porta dentro do container
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/vehicles
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
