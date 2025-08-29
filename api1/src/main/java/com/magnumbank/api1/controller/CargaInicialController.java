@@ -15,7 +15,7 @@ public class CargaInicialController {
     }
 
     @PostMapping
-    public ResponseEntity<Void> executarCargaInicial() {
+    public ResponseEntity<String> executarCargaInicial() {
         cargaInicialService.executarCargaInicial();
         return ResponseEntity.accepted().build();
     }

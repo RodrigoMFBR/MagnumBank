@@ -23,10 +23,10 @@ public class CargaInicialService {
         this.marcaProducer = marcaProducer;
     }
 
-    public void executarCargaInicial() {
+    public String executarCargaInicial() {
         log.info("Buscando Marcas");
         List<MarcaDTO> marcas = fipeClient.buscarMarcas();
-
+        int cont = marcas.size();
         marcas.stream()
                 .filter(this::marcaValida) // << Validação aqui
                 .forEach(marca -> {
@@ -34,6 +34,7 @@ public class CargaInicialService {
                     marcaProducer.enviarMarca(message);
                 });
 
+        return "Foram encontradas e enviadas para a fila " + marcas.size() + " marcas automotivas.";
 
     }
 

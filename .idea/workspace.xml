@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac3e50a7-6e8e-42a8-b92d-a8562006411d" name="Changes" comment="Arquivos de configuração">
+    <list default="true" id="ac3e50a7-6e8e-42a8-b92d-a8562006411d" name="Changes" comment="Correção das Portas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/controller/CargaInicialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/controller/CargaInicialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/service/CargaInicialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api1/src/main/java/com/magnumbank/api1/service/CargaInicialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api2/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Api1.executor": "Run",
-    "Application.Api1Application.executor": "Run",
+    "Application.Api1Application.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -113,12 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1756405036653</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Correção das Portas">
+      <option name="closed" value="true" />
+      <created>1756406821880</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756406821880</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit inicial" />
     <MESSAGE value="Arquivos de configuração" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arquivos de configuração" />
+    <MESSAGE value="Correção das Portas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção das Portas" />
   </component>
 </project>
